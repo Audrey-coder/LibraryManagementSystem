@@ -7,7 +7,7 @@ Public Class Form1
     Dim cmd As New SqlCommand
     Dim i As Integer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Data Source=DESKTOP-S3SN30U\SQLEXPRESS;Initial Catalog=LIBRARYDB;Integrated Security=True;Encrypt=True;"
+        con.ConnectionString = "Data Source=DESKTOP-S3SN30U\SQLEXPRESS;Initial Catalog=LIBRARYDB;Integrated Security=True;"
         If con.State = ConnectionState.Open Then
             con.Close()
 
